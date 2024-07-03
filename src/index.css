@@ -1,0 +1,158 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.logo { 
+  max-height: 60px;
+}
+.h-content { 
+  min-height: 100vh;
+  overflow: hidden;
+}
+.h-nav { 
+  height: 70px;
+}
+.prod-details{
+  height: 90px;
+  width: 250px;
+  justify-content: space-around;
+}
+.product-details-content{
+  height: 89vh;
+}
+.more-button{
+  width: fit-content;
+}
+.back-button{
+  width: fit-content;
+  height: fit-content;
+}
+
+.h-87 {
+  height: 100vh;
+}
+.h3{
+  padding-top: 50px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.w-40 { 
+  width: 40%;
+}
+.pic-container {
+  height: 70vh;
+}
+.child {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media (max-width: 576px){
+  .pdf-pic {
+    height: 70vh;
+    width: 100%;
+  }
+  .product-pic{
+    width: 100%;
+  }
+  .pic-size{
+    width: 75% !important;
+  }
+  .child {
+    font-size: 18px;
+    font-weight: 500;
+}
+}
+@media (min-width: 576px) and (max-width: 665px) {
+  .pdf-pic {
+    height: 70vh;
+    width: 100%;
+  }
+  .product-pic{
+    width: 100%;
+  }
+  .pic-size{
+    width: 75% !important;
+  }
+  .child {
+    font-size: 18px;
+    font-weight: 500;
+}
+}
+@media (min-width: 665px){
+  
+  .pdf-pic {
+    height: 70vh;
+    width: 100%;
+  }
+  .product-pic{
+    width: 50%;
+  }
+  .pic-container {
+    width: 100% !important;
+  }
+}
+@media (min-width: 900px){
+  .pdf-pic {
+    height: 70vh;
+    width: 100%;
+  }
+  .pic-container {
+    width: 50% !important;
+  }
+  .product-pic{
+    width: 40%;
+  }
+  .pic-size{
+    width: 50% !important;
+  }
+  .child {
+    font-size: 18px;
+    font-weight: 500;
+}
+  .more {
+    font-size: 20px !important;
+  }
+}
+
+.bg-red {
+  background-color:  #15968C !important;
+}
+.bg-darkcyan {
+  background-color:  #DE012D !important;
+  ;
+}
+.bg-blueviolet {
+  background-color:  #0092C3 !important;
+  ;
+}
+.bg-darkorange {
+  background-color:  #5A0139 !important;
+  ;
+}
+.bg-darkblue {
+  background-color:  #D7A8BC !important;
+  ;
+}
+.bg-darkseagreen {
+  background-color:  #F9B68C !important;
+  ;
+}
+.bg-deepskyblue {
+  background-color:  #EB3217 !important;
+  ;
+}
+.bg-navy {
+  background-color:  #020226 !important;
+  ;
+}
+.bg-navy1 {
+  background-color:  #0088C0 !important;
+  ;
+}
